@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <h1 className='text-3xl font-bold font-serif mt-20 mb-5 text-center'>Welcome to My Blog Galaxy!</h1>
-            <img className='mx-auto h-3/2 w-full' src={banner} alt="" />
+            <img className='mb-10 mx-auto h-[30rem] w-full' src={banner} alt="" />
         </div>
     );
 };
